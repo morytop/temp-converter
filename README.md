@@ -1,6 +1,6 @@
 # Simple Temperature Converter
 
-Created to better understand JS basics by example.
+Converts degrees in celcius to farenheit and vice versa. Created to better understand JS basics by example.
 
 ### Inspiration
 
