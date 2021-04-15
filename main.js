@@ -44,5 +44,11 @@ const conversion = () => {
     }
 }
 
-convBtn.addEventListener('click', celToFahr);
+const reset = () => {
+    result.innerText = '';
+    converter.value = '';
+}
+
+convBtn.addEventListener('click', conversion);
 changeBtn.addEventListener('click', swap);
+resetBtn.addEventListener('click', reset);
